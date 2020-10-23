@@ -1,0 +1,55 @@
+nav {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  position: absolute;
+}
+.logo {
+  width: 15vw;
+  padding-left: 5%;
+  height: 100%;
+}
+.logo_icon {
+  width: 75%;
+  transition: 0.5s;
+}
+.logo_icon:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+ul {
+  display: flex;
+  width: 55vw;
+  justify-content: space-evenly;
+  padding: 0;
+  padding-left: 10%;
+}
+li {
+  list-style: none;
+  font-size: 1.7vw;
+  font-weight: 500;
+  transition: 0.5s;
+  color: #fde404;
+}
+li:hover {
+  transform: scale(1.1);
+  color: #f4b67e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.active{
+  transform: scale(1.3);
+  color: #f4b67e;
+}
+.active:hover{
+  transform: scale(1.1);
+}
+.search_input {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+.search {
+  width: 50%;
+  height: 60%;
+}

@@ -1,0 +1,54 @@
+.main_div_home {
+  position: relative;
+}
+
+.first_intro_home {
+  background-image: url("../../backgrounds/back.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.summer_text_div {
+  width: 20vw;
+  height: 50vh;
+  margin-left: 15vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+.ice {
+  font-size: 3vw;
+  margin: 0;
+  font-family: "Pangolin", cursive;
+  color: #ffe029;
+}
+.summer_text {
+  font-size: 7vw;
+  margin-top: -3vh !important;
+  color: yellowgreen;
+  margin: 0;
+  font-family: "Abril Fatface", cursive;
+}
+
+.social_icons {
+  width: 20vw;
+  height: 10vh;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 90%;
+}
+
+a {
+  color: #ababab !important;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #fef388 !important;
+  transition: 0.5s;
+}
